@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ title | default: "Gravy Pud UK" }}</title>
+</head>
+
+<body>
+	<header>
+		<a href={{pkg.homepage}}>home</a>
+		<h1>{{ title | default: "Gravy Pud UK" }}</h1>
+	</header>
+	<main>
+		{{ content }}
+	</main>
+</body>
+
+</html>
